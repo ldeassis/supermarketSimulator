@@ -2,15 +2,11 @@ package ia.nimoy;
 
 import java.util.List;
 
+import org.apache.commons.math3.distribution.PoissonDistribution;
 
-<dependencies>
-    <!-- Other dependencies -->
-    <dependency>
-        <groupId>org.apache.commons</groupId>
-        <artifactId>commons-math3</artifactId>
-        <version>3.6.1</version>
-    </dependency>
-</dependencies>
+/**
+ * Classe que representa um cliente no supermercado
+ */
 
 public class Customer {
     public enum Estado {
